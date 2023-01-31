@@ -1,0 +1,16 @@
+div {
+  background-color: aqua;
+  border: 5px red dotted;
+  margin: 15px;
+  padding: 20px;
+}
+
+div > div {
+  background-color: blue;
+  color: azure;
+}
+
+div > div > div {
+  background-color: blueviolet;
+  color: bisque;
+}

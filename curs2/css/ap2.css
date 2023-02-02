@@ -1,0 +1,21 @@
+.cube{position: relative;
+}
+.side{
+    height: 95px;
+    position: absolute;
+    text-align: center;
+    width: 95px;
+}
+.top{
+    background-color: green;
+    transform:rotate(-45deg) skew(15deg, 15deg);
+}
+.left{
+    background-color: yellow;
+    transform: rotate(15deg)skew(15deg,15deg)translate(-50%,100%);
+}
+.right {
+    background-color: greenyellow;
+    transform: rotate(-15deg) skew(-15deg,-15deg)translate(50%,100%);
+}
+div{left: 40%;}

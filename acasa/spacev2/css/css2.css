@@ -69,7 +69,9 @@ body {
 
 
 @keyframes mercurr{
-    from { transform:  translateY(20px) rotate(0deg); }
+    from{ transform:  translateY(20px) rotate(0deg); }
+    10%{transform: scale(4);}
+    100%{transform: scale(2);}
     to   { transform:  translateX(1000px) rotate(360deg); }
     
 }
@@ -84,6 +86,8 @@ body {
 }
 @keyframes venuss{
     from { transform:  translateY(250px) rotate(0deg); }
+    10%{transform: scale(4);}
+    100%{transform: scale(2);}
     to   { transform:  translateX(1000px) rotate(360deg); }
 }
 .earth {
@@ -97,6 +101,8 @@ body {
 }
 @keyframes earthh{
     from { transform:  translateY(-470px) rotate(0deg); }
+    10%{transform: scale(4);}
+    100%{transform: scale(2);}
     to   { transform:  translateX(-1000px) rotate(-360deg); }
 }
 .mars {
@@ -110,6 +116,7 @@ body {
 }
 @keyframes marss{
     from { transform:  translateX(1000px) rotate(0deg); }
+
     to   { transform:  translateY(500px) rotate(-360deg); }
 }
 .moon {
@@ -122,6 +129,8 @@ body {
     animation-fill-mode: none;
 }
 @keyframes moonn{
-    from { transform:  translateY(-480px) rotate(0deg); }
-    to   { transform:  translateX(-1000px) rotate(360deg); }
+    from { transform: rotate(360deg) translateY(-480px) rotate(0deg); }
+    10%{transform: scale(4) ;}
+    100%{transform: scale(2);}
+    to   { transform:  translateX(-1000px) rotate(0deg); }
 }

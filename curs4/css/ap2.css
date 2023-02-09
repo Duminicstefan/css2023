@@ -1,0 +1,25 @@
+body{
+    margin: 40px auto;
+}
+.box {
+background-color: rgb(235,84,84);
+color: #fff;
+border-radius: 5px;
+padding: 20px;
+font-size: 150%;
+order:1;
+}
+.box:nth-child(2n){
+    background-color: rgb(53,130,218);
+    color: #000;
+}
+.box:nth-child(9n){
+    visibility:hidden;
+}
+.wrapper{
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 90px) ;
+    grid-gap: 10px;
+}

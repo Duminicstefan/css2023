@@ -1,0 +1,29 @@
+:root{
+    --primary-color:#302ae6;
+    --secondary-color: #536390;
+    --font-color:#424242;
+    --bg-color: #fff;
+    --heading-color:#292922;
+}
+[data-theme="dark"]{
+    --primary-color:#9a97f3;
+    --secondary-color:#818cab;
+    --font-color:red;
+    --bg-color:orange;
+    --heading-color:yellow;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:var(--bg-color);
+    color: var(--font-color);
+    max-width: 90%;
+    margin: 0 auto;
+    font-size: calc(1rem + 0.25vh);
+}
+h1{
+    color: var(--heading-color);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+}

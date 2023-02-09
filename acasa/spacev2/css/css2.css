@@ -85,10 +85,11 @@ body {
     animation-fill-mode: none;
 }
 @keyframes venuss{
-    from { transform:  translateY(250px) rotate(0deg); }
-    10%{transform: scale(4);}
-    100%{transform: scale(2);}
-    to   { transform:  translateX(1000px) rotate(360deg); }
+    0% { transform:  translate(0px) rotate(0deg); }
+    30%{transform: rotate(60deg) scale(2);}
+    50%{transform: rotate(120deg) scale(3);}
+    70%{transform: rotate(240deg) scale(2);}
+    100%  { transform:  translateX(1000px) rotate(360deg); }
 }
 .earth {
     position: absolute;

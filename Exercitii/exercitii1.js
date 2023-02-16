@@ -87,10 +87,10 @@
 
 //  OPERATORII DE BAZA CHALANGE !!!!
 
-console.log(population / 2);
-population ++;
-console.log(population);
-console.log(poulation > 6);
-console.log(population < 33);
-const description = country + 'is in' + continent +',and it-s' population + 'milion people speak'+language;
-console.log(description);
+// console.log(population / 2);
+// population ++;
+// console.log(population);
+// console.log(poulation > 6);
+// console.log(population < 33);
+// const description = country + 'is in' + continent +',and it-s' population + 'milion people speak'+language;
+// console.log(description);
